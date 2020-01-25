@@ -1,0 +1,174 @@
+/* NAVIGATION */
+body header nav ul {
+    list-style: none;
+    margin: 20px;
+}
+nav ul li {
+    display: inline;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+ul a {
+    color: black;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px black;
+    transition: color;
+}
+ul a:hover {
+    color: red;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+body header nav {
+    display: grid;
+    grid-template-columns: 10px auto;
+    grid-row: auto;
+}
+body header nav div ul {
+    padding: 0 0 0 250px;
+}
+button i {
+    font-size: 25px;
+}
+
+/* FIRM NAME */
+#firm_name {
+    color:black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 30px 0 0 0;
+    border-top: 5px double black;
+}
+/* PRZEWOZY DO... */
+#title {
+    color:black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    margin: 10px 0 0 0;
+    text-shadow: 2px 2px 3px black;
+    border-top: 5px double black;
+}
+
+/* WYNAJEM AUTOKAROW... */
+#subtitle{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 30px 0;
+    text-shadow: 2px 2px 3px black;
+}
+
+/* BACKGROUND */
+#background {
+    width: 100%;
+    box-shadow: -10px -10px 30px black, 10px 10px 30px black;
+}
+
+/* INFORMATIONS ABOUT ADVENTAGES AND CHARGE CARD */
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    margin: 10px;
+}
+.adv_title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 10px 10px 40px;
+}
+.adventage{
+    list-style: none;
+    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+.card {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: red;
+    text-align: justify;
+}
+.offer {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+.card_offer a {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    transition: padding;
+}
+.card_offer a:hover {
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+}
+.more {
+    margin: 10px 0 10px 0;
+}
+
+/* ONLINE ADVERTISEMENT */
+.online_adv {
+    padding: 10px 100px 10px 100px;
+    margin: 30px 50px 20px 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-image: url('images/background.jpg');
+    background-size: initial;
+    box-shadow: -10px -10px 30px black, 10px 10px 30px black;
+}
+.online_adv a {
+    color: white;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background-image: url('images/background.jpg');
+    display: grid;
+    grid-template-columns: 300px 300px auto;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 10px 50px 0 50px;
+    height: 250px;
+}
+
+/* FORM */
+form {
+    backface-visibility: hidden;
+}
+textarea {
+    background-color: rgb(228, 216, 216);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer button {
+    cursor: auto;
+    transition: cursor;
+}
+footer button:hover {
+    cursor:crosshair;
+}
